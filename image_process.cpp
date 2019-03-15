@@ -64,9 +64,9 @@ int main(int argc, char** argv)
 			{
 				// Brighten.
 				
-				processed_r = source_r * 3.2f;
-				processed_g = source_g * 3.2f;
-				processed_b = source_b * 3.2f;
+				processed_r = source_r * 2.2f;
+				processed_g = source_g * 2.2f;
+				processed_b = source_b * 2.2f;
 			}
 
 			unsigned char* offset = image + (j * x_res + i) * 3;
