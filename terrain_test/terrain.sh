@@ -1,0 +1,1 @@
+clang++ terrain.cpp -o terrain -std=c++11 -O3 -march=native -Wall -Wpedantic && ./terrain
